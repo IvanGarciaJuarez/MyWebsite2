@@ -60,12 +60,14 @@ body {
 
 /* Content */
 .content{
-  background-color: #c1c1c1;
+  background-color: #ffffff;
   padding: 10px;
   height: 800px;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   margin-left: 15%;
   margin-right: 15%;
+  padding-top: 5%;
+
 }
 
 
@@ -210,14 +212,14 @@ body {
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .centered1 {
   position: absolute;
-  top: 60%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -237,4 +239,42 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+
+/* Style the top navigation bar */
+.navbar1 {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  width: 4%;
+  z-index: 100;
+  /* Set the z-index of the navbar to a high value to make sure it appears on top of other content */
+}
+
+/* Style the navigation bar links */
+.navbar1 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar1 .icon {
+  display: none;
+}
+
+/* Change color on hover */
+.navbar1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Change color on active */
+.navbar1 a:active {
+  background-color: rgb(92, 138, 245);
+  color: black;
 }
