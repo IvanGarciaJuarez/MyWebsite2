@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Emerging Tech Rules :-)</title>
+    <title>Ivan Garcia</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
@@ -14,6 +14,15 @@
         <a href="#Projects">Projects</a>
         <a href="#Robot">Robot</a>
         <a href="https://www.linkedin.com/in/ivan-garcia-4a472b209/">Linkedin</a>
+        
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
     </div>
 
 <div class="row">
@@ -29,12 +38,12 @@
 
     <div class="row2">
       
-      <div class="column" div>
+      <div class="column">
         <h2>Me</h2>
-        <img src="/Images/profile.png" alt="Ivan Garcia" width="420" height="280">
+        <img src="/Images/profile.png" style="margin: auto;" alt="Ivan Garcia" width="420" height="280">
   
       </div>
-      <div class="column" div>
+      <div class="column">
         <h2>About Me</h2>
         <p>Ik ben Ivan, een creatieve en leergierige
           ontwerper met kennis van verschillende
@@ -76,7 +85,7 @@
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="/IMAGES/Render EV.png" style="width:100%">
+  <img src="/IMAGES/030.png" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
@@ -88,6 +97,24 @@
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
+  <img src="/IMAGES/z.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="/IMAGES/Tafel.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="/IMAGES/14.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
   <img src="/IMAGES/Carry Handle.png" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
@@ -96,6 +123,9 @@
 <br>
 
 <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
@@ -119,11 +149,13 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2500); // Change image every 2,5 seconds
 }
 </script>
 
 </div>
+
+
 <div class="content" id="Robot">
 <h2 style="text-align:center">Robot</h2>
 </section>
@@ -131,11 +163,14 @@ function showSlides() {
    
     <div class="navbarP5JS" id="myP5JSbar">
         <a href="javascript:void(0);"
-            onclick="myP5JSFunction('editor.p5js.org/IvanGarciaJuarez/full/8BmnEoLr5')"></a>
+            onclick="myP5JSFunction('editor.p5js.org/IvanGarciaJuarez/full/8BmnEoLr5')">Robot</a>
+        <a href="javascript:void(0);"
+            onclick="myP5JSFunction('editor.p5js.org/IvanGarciaJuarez/full/pOEXtmk6Z')">Jump Foy Joy</a>
 
     </div>
-    <iframe id="P5JSframe" src="https://editor.p5js.org/IvanGarciaJuarez/full/8BmnEoLr5" width="100%"
+    <iframe id="P5JSframe" src="https://editor.p5js.org/IvanGarciaJuarez/sketches" width="100%"
         height="700px"></iframe>
+        
        
         
 </section>
